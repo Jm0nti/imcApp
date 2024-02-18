@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body{
+    background: #dfe9f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper{
+    width: 420px;
+    height: 570px;
+    padding: 2rem 0 1rem 0;
+    margin: 27px auto;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  h1{
+    font-size: 2rem;
+    color: #07001f;
+  }
+  p{
+    margin-bottom: 1.7rem;
+    margin-top: 1rem;
+  }
+
+  h5{
+    margin-bottom: 6px;
+    margin-left: 10px;
+  }
+
+  form input{
+    width: 27%;
+    outline: none;
+    border: none;
+    background: #dfe9f5;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+  }
+
+  .container_labels{
+    display:inline-flex;
+    margin-left: -40px;
+  }
+
+  .container_altura{
+    padding-left: 46px;
+  }
+
+  .container_peso{
+    padding-left: 30px;
+  }
+
+  
+  button{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 32%;
+    background: rgb(63, 76, 255);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .container_botonhistorial{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 32%;
+    background: rgb(63, 76, 255);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .container_botonguardar{
+    font-size: 1.1rem;
+    margin-top: 5rem;
+    padding: 8px 1px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 45%;
+    background: rgb(63, 76, 255);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .container_botones2{
+    display: flex;
+    justify-content:right;
+    margin: 0 35px;
+    margin-top: 2.1rem;
+  }
+
+  .container_resultado{
+    margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
