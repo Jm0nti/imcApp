@@ -6,8 +6,7 @@
       <title>Calculadora IMC</title>
       <link rel="stylesheet" href="stylecalc.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-       <script src="app.js"></script>
-    </head>
+      </head>
     <body>
       <div class="wrapper">
         <h1>Calculadora IMC</h1>
@@ -21,19 +20,18 @@
                 </div>
                 </div>
         <form>
-                <input type="text" id="peso" placeholder="68">
-                <input type="text" id="altura" placeholder="1.67">
+                <input type="number" id="peso" placeholder="68">
+                <input type="number" id="altura" placeholder="1.67">
         </form>
 
         <div class = "container_botones1">
-        <button onclick="">Calcular</button>
+        <button onclick="calcularIMC();">Calcular</button>
         <button onclick="" class="container_botonhistorial">Ver Historial</button>
         </div>
 
         <div class="container_resultado" >
-            <h3>Resultado</h3>
-            <p>Tu IMC es: <b>23.4</b></p>
-            <p>Tu clasificación de peso es: <b>Normal</b></p>
+            <h3></h3>
+            <h6></h6>
           </div>
 
         <div class = "container_botones2">
@@ -42,6 +40,7 @@
 
 
       </div>
+      <script src="app.js"></script>
     </body>
     </html>
     </span>
