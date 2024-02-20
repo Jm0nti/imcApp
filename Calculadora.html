@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <span style="font-family: verdana, geneva, sans-serif;"><!DOCTYPE html>
-    <html lang="en">
+    <html lang="es">
     <head>
       <meta charset="UTF-8">
       <title>Calculadora IMC</title>
       <link rel="stylesheet" href="stylecalc.css">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
       </head>
     <body>
       <div class="wrapper">
         <h1>Calculadora IMC</h1>
+        <input type="text" id="nombre" placeholder="nombre">
+        <input type="number" id="ID" placeholder="id">
+        <button onclick="verhistorial()" class="container_botonhistorial">Ver Historial</button>
         <p>Calculadora de Índice de masa corporal <br> para adultos</p1>
             <div class="container_labels">
                 <div class="container_peso">
@@ -26,19 +29,13 @@
 
         <div class = "container_botones1">
         <button onclick="calcularIMC();">Calcular</button>
-        <button onclick="" class="container_botonhistorial">Ver Historial</button>
+        <button onclick="guardarimc();">Guardar imc</button>
         </div>
 
         <div class="container_resultado" >
             <h3></h3>
             <h6></h6>
           </div>
-
-        <div class = "container_botones2">
-        <button onclick="" class="container_botonguardar">Guardar resultado</button>
-        </div>
-
-
       </div>
       <script src="app.js"></script>
     </body>
