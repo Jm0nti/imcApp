@@ -1,0 +1,111 @@
+html{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #efefef;
+  
+}
+
+header {
+  background-color: #364552;
+  color: white;
+  padding: 1rem 0 1rem 0;
+  }
+
+header h1{
+    font-size: 4rem;
+}
+
+.wrapper{
+  width: 900px;
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+  /* margin: 0px auto; */
+  background: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.wrapper:hover{
+  box-shadow: 0px 25px 35px rgba(0, 0, 0, 0.3);
+}
+
+
+.inputs input{
+  margin-top: 10px;
+  font-size: 1.3rem;
+  width: 20rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+button{
+  transition: transform 0.5s ease;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 40%;
+  background: rgb(63, 76, 255);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(54, 68, 255);
+  transform: scale(1.1);
+}
+
+
+.container_botones1 button{
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.container_botones1 button:hover{
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+
+  /* p{
+    margin-bottom: 1.7rem;
+    margin-top: 1rem;
+  }
+
+  h5{
+    margin-bottom: 6px;
+    margin-left: 10px;
+  } */
+
+
+/*   
+  a:hover{
+    text-decoration: underline;
+  } */
+
+  /* .container_resultado{
+    margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    h6 {
+      margin-top: 0.5rem;
+      font-size: 15px;
+    }
+  } */

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container_calculadora">
+        <div class = "texto_calculadora">
+            <h1>Calculadora de IMC</h1>
+            <p>Calculadora de indice de masa corporal para adultos</p>
+        </div>
+
+        <form>
+            <!-- <label for="input_altura">Altura (m):</label>
+            <label for="input_peso">Peso (Kg):</label> -->
+            <div class = "entradas_calculadora">
+                <input type="number" id="input_altura" placeholder="Altura (M) ">
+                <input type="number" id="input_peso" placeholder="Peso (Kg) ">
+            </div>
+        </form>
+
+        <div class = "botones_calculadora">
+            <button onclick="calcularIMC()" id="boton_calcular">Calcular</button>
+            <button onclick="guardarIMC()" id="boton_guardar">Guardar</button>
+        </div>
+
+        <div class = "container_resultado">
+            <div class="boton_historial">
+                <button onclick="verHistorial()" id="boton_historial">Historial</button>
+            </div>
+            <div class="texto_resultado">
+                <h3 id = "resultado"></h3>
+            </div>
+            <div class="texto_historial">
+                <table id="historial_table">
+                    <thead>
+                        <tr>
+                            <th>Altura (M)</th>
+                            <th>Peso (Kg)</th>
+                            <th>IMC</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Filas de la tabla se llenarán dinámicamente con JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            
+            
+
+        </div>
+    </div>
+
+
+    <div class = "container_registros">
+
+    </div>
+
+</body>
+</html>
