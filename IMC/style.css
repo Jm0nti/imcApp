@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #dfe9f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.texto_calculadora{
+    background-color: #364552;
+    color: white;
+    padding: 1rem 0 1rem 0;
+}
+
+.texto_calculadora h1 {
+    font-size: 2.5rem;
+}
+
+.container_calculadora{
+    transition: box-shadow 0.3s ease;
+    width: 420px;
+    height: 570px;
+    /* padding: 1rem 0 1rem 0;
+    margin: 27px auto; */
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.container_calculadora{
+    box-shadow: 0px 25px 35px rgba(0, 0, 0, 0.3);
+}
+.container_resultado{
+    height: 60%;
+    margin-top: 5%;
+}
+
+
+.texto_resultado{
+        margin-top: 5%;
+}
+
+.texto_historial{
+    overflow-y: auto;
+    /* margin-top: 2px; */
+    max-height: 200px;
+}
+
+#historial_table {
+    width: 100%;
+    border-collapse: collapse; /* Combina los bordes de las celdas para un aspecto más limpio */
+    display: none; /* Oculta la tabla*/
+}
+
+#historial_table th, #historial_table td {
+    padding: 8px; /* Ajusta el relleno para mejorar el aspecto visual */
+    text-align: center; /* Centra el texto en las celdas */
+}
+
+#historial_table th {
+    background-color: #f2f2f2; /* Agrega un color de fondo a las celdas del encabezado */
+}
+
+#historial_table th, #historial_table td {
+    width: 33.33%; /* Divide el ancho de la tabla en 3 columnas iguales */
+}
+
+
+tr:hover{
+    background-color: #aaa;
+}
+
+form input{
+    width: 40%;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background: #dfe9f5;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.label{
+    margin-bottom: 5px
+}
+
+button{
+    
+    transition: transform 0.5s ease;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 4rem;
+    width: 8rem;
+    
+    background: rgb(63, 76, 255);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background: rgba(0, 134, 34, 0.767);
+}
+
+.botones_calculadora{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.resultados{
+    margin-top: 10%;
+}
+
